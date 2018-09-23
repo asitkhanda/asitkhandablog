@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About
+author: Asit Khanda
 permalink: /about/
 ---
 
