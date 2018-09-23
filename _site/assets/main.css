@@ -6,12 +6,12 @@
 
 html,
 body {
-  color: #555;
+  color: #2f3542;
   margin: 0;
   padding: 0; }
 
 html {
-  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   overflow-y: scroll; }
   @media (min-width: 600px) {
@@ -27,17 +27,17 @@ h3,
 h4,
 h5,
 h6 {
-  color: #353535;
-  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #57606f;
+  font-family: "Montserrat", sans-serif;
   line-height: normal; }
 
 a {
-  color: #4a9ae1;
+  color: #3742fa;
   text-decoration: none; }
 
 blockquote {
-  border-left: 0.25rem solid #e5e5e5;
-  color: #979797;
+  border-left: 0.25rem solid #2ed573;
+  color: #ced6e0;
   margin: .8rem 0;
   padding: .5rem 1rem; }
   blockquote p:last-child {
@@ -56,12 +56,12 @@ td {
 
 pre,
 code {
-  font-family: Menlo, Monaco, monospace; }
+  font-family: "Anonymous Pro", monospace; }
 
 code {
-  background-color: #f9f9f9;
+  background-color: #f1f2f6;
   border-radius: 3px;
-  color: #bf616a;
+  color: #ff4757;
   font-size: 85%;
   padding: .25em .5em; }
 
@@ -75,7 +75,7 @@ pre code {
   padding: 0; }
 
 .highlight {
-  background-color: #f9f9f9;
+  background-color: #f1f2f6;
   border-radius: 3px;
   line-height: 1.4;
   margin: 0 0 1rem;
@@ -84,7 +84,7 @@ pre code {
     margin-bottom: 0;
     overflow-x: auto; }
   .highlight .lineno {
-    color: #aaa;
+    color: #a4b0be;
     display: inline-block;
     padding: 0 .75rem 0 .25rem;
     -webkit-user-select: none;
@@ -94,20 +94,20 @@ pre code {
 .post {
   padding: 3rem 0; }
   .post-info {
-    color: #aaa;
-    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+    color: #3742fa;
+    font-family: "ABeeZee", sans-serif;
     letter-spacing: 0.5px;
     text-align: center; }
     .post-info span {
       font-style: italic; }
   .post-title {
-    color: #353535;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #2f3542;
+    font-family: "Noto Sans", sans-serif;
     font-size: 4rem;
     margin: 1rem 0;
     text-align: center; }
   .post-line {
-    border-top: 0.4rem solid #353535;
+    border-top: 0.4rem solid #57606f;
     display: block;
     margin: 0 auto 3rem;
     width: 4rem; }
@@ -119,9 +119,9 @@ pre code {
   .post img {
     margin: 0 auto 0.5rem; }
   .post img + em {
-    color: #aaa;
+    color: #a4b0be;
     display: block;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center; }
@@ -399,7 +399,7 @@ footer,
   width: 80%; }
 
 .nav {
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px -2px #212121;
   overflow: auto; }
   .nav-container {
     margin: 1rem auto;
@@ -409,11 +409,13 @@ footer,
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    color: #555;
+    color: #2f3542;
     display: inline-block;
     margin: 0;
     padding-right: .2rem; }
-    .nav-title:hover, .nav-title:focus {
+    .nav-title:hover {
+      color: #3742fa; }
+    .nav-title:focus {
       opacity: .6; }
   .nav ul {
     list-style-type: none;
@@ -424,7 +426,7 @@ footer,
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    color: #555;
+    color: #2f3542;
     display: inline-block;
     opacity: .6;
     padding: 0 2rem 0 0; }
@@ -433,8 +435,8 @@ footer,
     .nav li:hover, .nav li:focus {
       opacity: 1; }
   .nav a {
-    color: #555;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif; }
+    color: #2f3542;
+    font-family: "Montserrat", sans-serif; }
 
 @media (min-width: 600px) {
   .nav-container {
@@ -444,28 +446,28 @@ footer,
     position: absolute;
     right: 0; } }
 footer {
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  font-family: "ABeeZee", sans-serif;
   padding: 2rem 0;
   text-align: center; }
   footer span {
-    color: #555;
+    color: #2f3542;
     font-size: .8rem; }
 
 .pagination {
-  border-top: 0.5px solid #e5e5e5;
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  border-top: 0.5px solid #2ed573;
+  font-family: "ABeeZee", sans-serif;
   padding-top: 2rem;
   position: relative;
   text-align: center; }
   .pagination span {
-    color: #353535;
+    color: #57606f;
     font-size: 1.1rem; }
   .pagination .top {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: #555;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #2f3542;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
     opacity: .6; }
     .pagination .top:hover {
@@ -474,7 +476,7 @@ footer {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: #555;
+    color: #2f3542;
     position: absolute; }
     .pagination .arrow:hover, .pagination .arrow:focus {
       opacity: .6;
@@ -485,8 +487,8 @@ footer {
     right: 0; }
 
 .catalogue-item {
-  border-bottom: 1px solid #e5e5e5;
-  color: #555;
+  border-bottom: 1px solid #2ed573;
+  color: #2f3542;
   display: inline-block;
   padding: 2rem 0; }
   .catalogue-item:hover .catalogue-line, .catalogue-item:focus .catalogue-line {
@@ -494,13 +496,13 @@ footer {
   .catalogue-item:last-child {
     border: 0; }
 .catalogue-time {
-  color: #aaa;
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+  color: #a4b0be;
+  font-family: "ABeeZee", sans-serif;
   letter-spacing: .5px; }
 .catalogue-title {
-  color: #353535;
+  color: #57606f;
   display: block;
-  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   margin: .5rem 0; }
@@ -508,6 +510,6 @@ footer {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  border-top: 0.2rem solid #353535;
+  border-top: 0.2rem solid #57606f;
   display: block;
   width: 2rem; }
